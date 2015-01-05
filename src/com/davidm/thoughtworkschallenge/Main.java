@@ -12,7 +12,7 @@ public class Main {
 		MarsArea marsPlateau = MarsArea.generateArea(inputFile);
 		marsPlateau.resolveDirections();
 		List<String> output = marsPlateau.getRoverInfo();
-		output.stream().forEach(System.out::println);
+		output.forEach(System.out::println);
 	}
 
 }

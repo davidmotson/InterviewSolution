@@ -27,7 +27,7 @@ public class MarsArea {
 	}
 
 	public void resolveDirections() {
-		rovers.stream().forEach(Rover::resolveDirections);
+		rovers.forEach(Rover::resolveDirections);
 	}
 
 	public List<String> getRoverInfo() {

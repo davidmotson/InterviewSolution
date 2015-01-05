@@ -22,7 +22,7 @@ public class Rover {
 	}
 	
 	public void resolveDirections(){
-		instructions.stream().forEach(this::applyInstruction);
+		instructions.forEach(this::applyInstruction);
 	}
 	
 	private void applyInstruction(RoverInstruction instruction){
